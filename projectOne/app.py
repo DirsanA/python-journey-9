@@ -1,6 +1,7 @@
 
 print("Do you want play the game: ")
 userResponse =input().lower()
+userResult =0
 if userResponse!= "yes":
     quit()
 else:
