@@ -8,14 +8,13 @@ else:
     print("CPU stands for:")
     answer=input().lower()
     if answer=="centeral processing unit":
-        print("correct")
-    else:
-        print("Incorrect")
+        userResult=userResult+1
 print("GPU stands for:")
 answer=input().lower()
 if answer=='graphics processing unit':
-    print("correct")
-else:
-    print("Incorrect")
+    userResult=userResult+1
 
-    
+
+calculateTotalResult=(userResult/2) * 100
+print(calculateTotalResult)
+
