@@ -17,5 +17,5 @@ if answer=='graphics processing unit':
 
 calculateTotalResult=(userResult/2) * 100
 
-print("You have got ",str(userResult)+"%")
+print("You have got ",str(userResult )+"%")
 
