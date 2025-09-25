@@ -11,5 +11,6 @@ def randum_num():
                 print("It is smaller number that you enter: ")
         else:
             print("Congratulation You have succesfuly got the number ",num)
+            break
         
 randum_num()
