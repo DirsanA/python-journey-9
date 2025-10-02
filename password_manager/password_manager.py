@@ -1,5 +1,4 @@
 
-user_choose=input("please enter your choice view for view password and add for adding password (view/add): ")
 
 def add():
     name=input("Account Name: ")
@@ -9,13 +8,16 @@ def add():
         f.write(name+"|"+pwd+"\n" )
         
 def view():
-    pass
-
+    with open('password.txt','r') as f:
+        for line in f.readlines():
+            print(line)
 while True:
+    user_choose=input("please enter your choice view for view password and add for adding password (view/add): ")
     if user_choose=="view":
        view()
     elif user_choose=="add":
          add()
+         continue
     elif user_choose=="quit" or "q":
         break
     else:
