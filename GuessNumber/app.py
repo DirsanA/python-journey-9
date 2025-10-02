@@ -1,7 +1,7 @@
 import random
 
 def randum_num():
-    num=random.randint(100)
+    num=random.randint(1,100)
     while True:
         random_input=input("Please Enter number between 1 and 100: ")
         if num!=random_input:
@@ -11,6 +11,5 @@ def randum_num():
                 print("It is smaller number that you enter: ")
         else:
             print("Congratulation You have succesfuly got the number ",num)
-            break
         
 randum_num()
