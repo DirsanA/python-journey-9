@@ -54,3 +54,11 @@
 
 # other_list=name_list.copy()
 # print(other_list)
+
+# Join in list 
+
+first_list=["Abebe","Kebede"]
+secound_list=[1,2,4]
+
+sum_list=first_list+secound_list
+print(sum_list)
