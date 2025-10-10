@@ -1,3 +1,5 @@
-tuple_item=("food","drinking","sweet")
+fruits=("apple","orange","banana")
 
-print(tuple_item)
+(green,*yellow)=fruits
+
+print(fruits)
