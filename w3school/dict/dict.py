@@ -6,5 +6,6 @@ this_dict={
 
 this_dict.update({"year":"2006"})
 
+this_dict["name"]="red"
 
 print(this_dict)
