@@ -1,7 +1,11 @@
 import numpy as np
 
-my_list=[1,2,3]
+arr=[1.2,3.5,6.7]
 
-my_array=np.array(my_list)
+arr=np.array(arr,dtype='float32')
 
-print(type(my_array))
+copy_arr=arr.copy()
+
+arr[0]=12.4
+
+print(arr)
